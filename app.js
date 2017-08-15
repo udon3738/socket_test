@@ -20,7 +20,7 @@ io.sockets.on('connection',　function (socket){
       //socket.get('client_name',　function(err ,name){
         io.sockets.emit('emit_from_server' , ' [' + socket.id + ': ] ' + data.msg);
 
-      //console.log(data);
+        console.log(data);
       //io.socket.emit('emit_from_server' , 'hello_from_server: ' + data);
 
   });
